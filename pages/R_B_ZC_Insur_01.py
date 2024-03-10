@@ -22,7 +22,7 @@ from streamlit.hello.utils import show_code
 import sys
 sys.path.append('/mount/src/wylie-chan-phillips-com-sg/')
 # from Folder.File             import Class
-from R_B_ZC_Insur.R_B_ZC_Insur import R_B_ZC_Insur
+from mount.src.wylie-chan-phillips-com-sg.R_B_ZC_Insur.R_B_ZC_Insur import R_B_ZC_Insur
 
 
 st.set_page_config(page_title="R_B_ZC_Insur_01", page_icon="📹")
