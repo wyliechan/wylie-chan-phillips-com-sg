@@ -948,7 +948,7 @@ if sidebar_selectbox_mode == "V_FinDeriv":
 
     #        dir      .dir         .py          .class
     # import Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur.R_B_ZC_Insur
-    from Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur.R_B_ZC_Insur import R_B_ZC_Insur
+    from Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur import R_B_ZC_Insur
 
     # import Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur
 
