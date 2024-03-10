@@ -4111,10 +4111,10 @@ csv_pne_SBIN = 'C:\Dropbox\_\work\___lib_py_fessorpro\pandas files\pandas files\
 csv_pne_sp500 = 'C:\Dropbox\_\work\___lib_py_fessorpro\pandas files\pandas files\sp500.csv'
 csv_pne_stock_value = 'C:\Dropbox\_\work\___lib_py_fessorpro\pandas files\pandas files\stock_value.csv'
 csv_pne_unicorn = 'C:\Dropbox\_\work\___lib_py_fessorpro\pandas files\pandas files\\Unicorn_companies.csv'
-df_SBIN = pd.read_csv(csv_pne_SBIN)
-df_sp500 = pd.read_csv(csv_pne_sp500)
-df_stock_value = pd.read_csv(csv_pne_stock_value)
-df_unicorn = pd.read_csv(csv_pne_unicorn)
+# df_SBIN = pd.read_csv(csv_pne_SBIN)
+# df_sp500 = pd.read_csv(csv_pne_sp500)
+# df_stock_value = pd.read_csv(csv_pne_stock_value)
+# df_unicorn = pd.read_csv(csv_pne_unicorn)
 # ==============================================================================================================================================
 import numpy as np
 import pandas as pd
