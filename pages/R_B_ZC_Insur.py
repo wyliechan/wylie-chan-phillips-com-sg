@@ -18,10 +18,11 @@ import numpy as np
 
 import streamlit as st
 from streamlit.hello.utils import show_code
-
+from _Class_R_B_ZC_Insur import _Class_R_B_ZC_Insur
 
 st.set_page_config(page_title="R_B_ZC_Insur", page_icon="📹")
 st.markdown("# R_B_ZC_Insur")
+
 # st.sidebar.header("R_B_ZC_Insur")
 st.write(
     """ LIC
@@ -29,13 +30,13 @@ st.write(
 )
 
 # Create the Object using Standard Parameters
-# s_ticker = r"R_B_ZC_Insur___NKSgd=020-200_Prem1_T=3y_r=3.62\%_Endow_Par0_LIC_WealthPlus3.1"
-# R_B_ZC_Insur_obj = _Class_R_B_ZC_Insur(
-#     asset_class="R",
-#     security_type="B_ZC",
-#     ticker=s_ticker
-# )
-# R_B_ZC_Insur_obj.n = 3
+s_ticker = r"R_B_ZC_Insur___NKSgd=020-200_Prem1_T=3y_r=3.62\%_Endow_Par0_LIC_WealthPlus3.1"
+R_B_ZC_Insur_obj = _Class_R_B_ZC_Insur(
+    asset_class="R",
+    security_type="B_ZC",
+    ticker=s_ticker
+)
+R_B_ZC_Insur_obj.n = 3
 #
 # st.write(R_B_ZC_Insur_obj)
 #
