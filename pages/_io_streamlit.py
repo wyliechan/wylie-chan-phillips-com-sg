@@ -110,7 +110,7 @@ from dateutil.relativedelta import relativedelta
 
 import time
 # import dropbox
-from sqlalchemy import create_engine  # GAMA: create connection to DB
+# from sqlalchemy import create_engine  # GAMA: create connection to DB
 import urllib
 import requests
 
