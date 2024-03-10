@@ -32,6 +32,10 @@ import requests                 # for web scraping
 
 import math
 import random
+
+import Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur
+
+
 # from scipy.stats import norm
 # import plotly.figure_factory as ff
 
@@ -944,6 +948,7 @@ if sidebar_selectbox_mode == "V_FinDeriv":
     # C:\Dropbox\_\work\___lib_py_github\wylie-chan-phillips-com-sg\pages\_io_streamlit.py
     # C:\Dropbox\_\work\___lib_py_github\wylie-chan-phillips-com-sg\pages\Fin_Deriv\R_B_ZC_Insur\R_B_ZC_Insur.py
     # from Fin_Deriv.R_B_ZC_Insur import R_B_ZC_Insur
+    # import Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur.R_B_ZC_Insur
     import Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur.R_B_ZC_Insur
 
 
@@ -953,7 +958,7 @@ if sidebar_selectbox_mode == "V_FinDeriv":
 
         # Create the Object using Standard Parameters
         s_ticker = r"R_B_ZC_Insur___NKSgd=020-200_Prem1_T=3y_r=3.62\%_Endow_Par0_LIC_WealthPlus3.1"
-        R_B_ZC_Insur_obj = Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur.R_B_ZC_Insur(
+        R_B_ZC_Insur_obj = R_B_ZC_Insur(
             asset_class = "R",
             security_type = "B_ZC",
             ticker = s_ticker
