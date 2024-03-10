@@ -140,7 +140,7 @@ import numpy as np                      # DEV_TET_RiskParity
 st.set_page_config(layout="wide")
 # st.title("Wylie CHAN")
 
-st.sidebar.image("_io_streamlit__quantbible_apple-touch-icon_250x250.png", width=100)
+# st.sidebar.image("_io_streamlit__quantbible_apple-touch-icon_250x250.png", width=100)
 sidebar_button_archive = st.sidebar.button("Archive")
 
 if sidebar_button_archive:
