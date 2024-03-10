@@ -942,7 +942,7 @@ if sidebar_selectbox_mode == "V_FinDeriv":
     # ======================================================================================================================
     import sys
     sys.path.append(r"C:\Dropbox\_\work\Fin_Deriv\R_B_ZC_Insur")
-    import _Class_R_B_ZC_Insur
+    # import _Class_R_B_ZC_Insur
 
     s = "R_B_ZC"
     if section == s:
@@ -950,7 +950,7 @@ if sidebar_selectbox_mode == "V_FinDeriv":
 
         # Create the Object using Standard Parameters
         s_ticker = r"R_B_ZC_Insur___NKSgd=020-200_Prem1_T=3y_r=3.62\%_Endow_Par0_LIC_WealthPlus3.1"
-        R_B_ZC_Insur_obj = _Class_R_B_ZC_Insur._Class_R_B_ZC_Insur(
+        R_B_ZC_Insur_obj = R_B_ZC_Insur.R_B_ZC_Insur(
             asset_class = "R",
             security_type = "B_ZC",
             ticker = s_ticker
