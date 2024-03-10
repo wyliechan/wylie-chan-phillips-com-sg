@@ -948,9 +948,9 @@ if sidebar_selectbox_mode == "V_FinDeriv":
 
     #        dir      .dir         .py          .class
     # import Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur.R_B_ZC_Insur
-    from Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur import R_B_ZC_Insur as R
+    # from Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur import R_B_ZC_Insur as R
 
-    # import Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur
+    import Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur.R_B_ZC_Insur
 
 
     s = "R_B_ZC"
@@ -959,7 +959,7 @@ if sidebar_selectbox_mode == "V_FinDeriv":
 
         # Create the Object using Standard Parameters
         s_ticker = r"R_B_ZC_Insur___NKSgd=020-200_Prem1_T=3y_r=3.62\%_Endow_Par0_LIC_WealthPlus3.1"
-        R_B_ZC_Insur_obj = R.R_B_ZC_Insur(
+        R_B_ZC_Insur_obj = R_B_ZC_Insur(
             asset_class = "R",
             security_type = "B_ZC",
             ticker = s_ticker
