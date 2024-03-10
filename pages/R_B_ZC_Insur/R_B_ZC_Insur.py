@@ -5,7 +5,7 @@
 import streamlit as st
 import datetime
 
-class _Class_R_B_ZC_Insur:
+class R_B_ZC_Insur:
 
     asset_class = 'R'
     security_type = 'B_ZC'
