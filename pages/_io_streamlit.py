@@ -129,7 +129,7 @@ import requests
 # from matplotlib import pyplot as plt    # DEV_TET_RiskParity
 from numpy.linalg import inv, pinv      # DEV_TET_RiskParity
 import numpy as np                      # DEV_TET_RiskParity
-from scipy.optimize import minimize     # DEV_TET_RiskParity
+# from scipy.optimize import minimize     # DEV_TET_RiskParity
 
 
 # import ___lib_py_bbg.bdp as bdp         # bdp.request
