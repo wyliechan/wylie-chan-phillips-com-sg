@@ -160,7 +160,6 @@ if sidebar_button_archive:
 
 # SelectBox
 list_modes = ['<select>',
-              'WWW',
               'DEV',
               'X_Process_Simulation',
               'V_FinDeriv',
@@ -315,57 +314,6 @@ def scrape_website(url):
 
     data = soup
     return pd.DataFrame(data)
-
-
-if sidebar_selectbox_mode == "WWW":
-    sidebar_radio_url = st.sidebar.radio("URL", (
-        [
-            "_",
-            "WC.MW",
-            "FT",
-            "Bloomberg"
-        ]
-    ))
-
-    if sidebar_radio_url == "_":
-        # URL input
-        # url = st.text_input('Enter the website URL:')
-        url = "https://www.bloomberg.com/quote/SPX:IND"
-        url = "https://www.investing.com/economic-calendar/"
-        if url:
-            try:
-                # Scrape data
-                scraped_data = scrape_website(url)
-
-                # Display the scraped data
-                st.write('Scraped Data:')
-                st.write(scraped_data)
-
-                # Optionally, you can display a chart using st.pyplot or other visualization libraries
-                # Example:
-                # st.line_chart(scraped_data.set_index('Category'))
-
-            except Exception as e:
-                st.error(f"An error occurred: {e}")
-        else:
-            st.warning('Please enter a valid URL.')
-
-    # s_url = "https://www.interactivebrokers.com.au/sso/Login"
-    # s_url = "https://platform.cmcmarkets.com/#/login"
-    # s_url = "https://pro.kraken.com/app/trade/btc-usdt"
-    # s_url = "https://mail.google.com/mail/u/1/#inbox"
-    if sidebar_radio_url == "WC.MW":
-        s_url = "http://209.151.16.23/mw/index.php?title=Main_Page"
-        st.write(s_url)
-        st.write(f'<iframe src=' + s_url + ' height="900" width="1500"></iframe>', unsafe_allow_html=True,)
-    if sidebar_radio_url == "FT":
-        s_url = "https://www.ft.com/"
-        st.write(s_url)
-        st.write(f'<iframe src=' + s_url + ' height="900" width="1500"></iframe>', unsafe_allow_html=True,)
-    if sidebar_radio_url == "Bloomberg":
-        s_url = "https://www.bloomberg.com"
-        st.write(s_url)
-        st.write(f'<iframe src=' + s_url + ' height="900" width="1500"></iframe>', unsafe_allow_html=True,)
 
 
 
