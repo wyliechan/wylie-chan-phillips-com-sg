@@ -151,12 +151,12 @@ if sidebar_button_archive:
     st.sidebar.text("archived at: " + s_dt_T_yyyymmdd_hhmmss)
 
 # https://blog.streamlit.io/session-state-for-streamlit/
-if s_env == 'Home':
-    pass
-elif s_env == 'Work':
-    pass
-else:
-    pass
+# if s_env == 'Home':
+#     pass
+# elif s_env == 'Work':
+#     pass
+# else:
+#     pass
 
 # SelectBox
 list_modes = ['<select>',
