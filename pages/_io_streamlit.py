@@ -103,9 +103,9 @@ from numpy import *
 from numpy.random import rand
 # import scipy
 # import scipy.stats
-from pylab import *
-import matplotlib
-import matplotlib.pyplot as plt
+# from pylab import *
+# import matplotlib
+# import matplotlib.pyplot as plt
 from dateutil.relativedelta import relativedelta
 
 import time
