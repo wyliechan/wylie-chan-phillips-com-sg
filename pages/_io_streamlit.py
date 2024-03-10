@@ -950,7 +950,7 @@ if sidebar_selectbox_mode == "V_FinDeriv":
     # import Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur.R_B_ZC_Insur
     # from Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur import R_B_ZC_Insur as R
 
-    import Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur.R_B_ZC_Insur
+    import Fin_Deriv.R_B_ZC_Insur.R_B_ZC_Insur.R_B_ZC_Insur as R_B_ZC_Insur
 
 
     s = "R_B_ZC"
