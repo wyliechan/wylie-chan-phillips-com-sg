@@ -96,7 +96,7 @@ s_username = getpass.getuser()
 
 # import libraries standard
 import streamlit as st
-from st_aggrid import AgGrid
+# from st_aggrid import AgGrid
 import pandas as pd
 import numpy as np
 from numpy import *
