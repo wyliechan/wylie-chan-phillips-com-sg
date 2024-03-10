@@ -26,7 +26,7 @@ from difflib import SequenceMatcher
 #                                AutoMinorLocator)
 # import matplotlib.dates as mdates
 import requests                 # for web scraping
-from bs4 import BeautifulSoup   # for web scraping
+# from bs4 import BeautifulSoup   # for web scraping
 # from shapely.geometry import Polygon
 # from matplotlib.patches import Polygon as PolygonPatch
 
