@@ -19,7 +19,7 @@ import numpy as np
 import streamlit as st
 from streamlit.hello.utils import show_code
 
-st.set_page_config(page_title="R_B_ZC_Insur", page_icon="📹")
+st.set_page_config(page_title="R_B_ZC_Insur_01", page_icon="📹")
 st.markdown("# R_B_ZC_Insur")
 
 # st.sidebar.header("R_B_ZC_Insur")
