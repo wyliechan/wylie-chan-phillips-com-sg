@@ -351,7 +351,7 @@ if sidebar_selectbox_mode == "DEV":
             st.text('archive path                  = ' + s_this_file_archive_p)
             st.text('archive name ext              = ' + s_this_file_archive_ne)
             st.text('archive path name ext         = ' + s_this_file_archive_pne)
-            st.text('s_env                         = ' + s_env)
+            # st.text('s_env                         = ' + s_env)
 
     checkbox_buttons = st.sidebar.checkbox("sidebar.buttons")
     if checkbox_buttons:
