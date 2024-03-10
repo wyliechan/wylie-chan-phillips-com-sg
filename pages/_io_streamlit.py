@@ -21,7 +21,7 @@ import collections
 from collections import Counter
 from difflib import SequenceMatcher
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from matplotlib.ticker import (MultipleLocator, FormatStrFormatter,
                                AutoMinorLocator)
 import matplotlib.dates as mdates
