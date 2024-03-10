@@ -126,7 +126,7 @@ import requests
 # import ___lib_py_yahoo.ydh as ydh
 # import ___lib_py_finnhub.fdh as fdh
 
-from matplotlib import pyplot as plt    # DEV_TET_RiskParity
+# from matplotlib import pyplot as plt    # DEV_TET_RiskParity
 from numpy.linalg import inv, pinv      # DEV_TET_RiskParity
 import numpy as np                      # DEV_TET_RiskParity
 from scipy.optimize import minimize     # DEV_TET_RiskParity
