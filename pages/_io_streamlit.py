@@ -32,7 +32,7 @@ import requests                 # for web scraping
 
 import math
 import random
-from scipy.stats import norm
+# from scipy.stats import norm
 import plotly.figure_factory as ff
 
 
