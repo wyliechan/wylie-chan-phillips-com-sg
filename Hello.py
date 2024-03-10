@@ -17,7 +17,7 @@ from streamlit.logger import get_logger
 
 LOGGER = get_logger(__name__)
 
-import _Class_R_B_ZC_Insur
+import pages._Class_R_B_ZC_Insur
 
 
 def run():
