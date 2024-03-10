@@ -18,7 +18,6 @@ import numpy as np
 
 import streamlit as st
 from streamlit.hello.utils import show_code
-from pages import R_B_ZC_Insur
 
 
 st.set_page_config(page_title="R_B_ZC_Insur", page_icon="📹")
