@@ -101,8 +101,8 @@ import pandas as pd
 import numpy as np
 from numpy import *
 from numpy.random import rand
-import scipy
-import scipy.stats
+# import scipy
+# import scipy.stats
 from pylab import *
 import matplotlib
 import matplotlib.pyplot as plt
