@@ -22,9 +22,9 @@ from collections import Counter
 from difflib import SequenceMatcher
 
 # import matplotlib.pyplot as plt
-from matplotlib.ticker import (MultipleLocator, FormatStrFormatter,
-                               AutoMinorLocator)
-import matplotlib.dates as mdates
+# from matplotlib.ticker import (MultipleLocator, FormatStrFormatter,
+#                                AutoMinorLocator)
+# import matplotlib.dates as mdates
 import requests                 # for web scraping
 from bs4 import BeautifulSoup   # for web scraping
 # from shapely.geometry import Polygon
