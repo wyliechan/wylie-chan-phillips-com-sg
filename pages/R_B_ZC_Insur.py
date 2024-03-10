@@ -18,7 +18,7 @@ import numpy as np
 
 import streamlit as st
 from streamlit.hello.utils import show_code
-from ._Class_R_B_ZC_Insur import _Class_R_B_ZC_Insur
+from _Class_R_B_ZC_Insur import _Class_R_B_ZC_Insur
 
 st.set_page_config(page_title="R_B_ZC_Insur", page_icon="📹")
 st.markdown("# R_B_ZC_Insur")
